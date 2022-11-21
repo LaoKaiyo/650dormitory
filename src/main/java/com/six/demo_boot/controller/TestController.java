@@ -12,6 +12,7 @@ public class TestController {
         HashMap<String, String> map = new HashMap<>();
         map.put("性别","男");
         map.put("爱好","女");
+        ///jjjjjj
         return map.toString();
     }
     @GetMapping
